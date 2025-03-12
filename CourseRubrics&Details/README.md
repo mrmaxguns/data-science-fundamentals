@@ -1,4 +1,42 @@
-## Suggestions on grading
+## Break Down of the Units:
+
+- Unit 1: Crash Course in Python. I only cover enough python to give students the ability to use numpy arrays and pandas dataframes, and read a for loop.
+  - Approx. length: 3 hours of class time for the notes and 1 hour for the exercises. No project this unit. 4 total hours; much shorter if this isn't your first coding class.
+
+- Unit 2: Intro to Probability. I blend probability and statsitcs together in a single example. This unit assumes no previous exposure to probability/statistics.
+  - we also conlude by buidling a model with pymc, although students are not expected to understand that model yet.
+  - Approx. length: 6 hours for the notes. 2.5 hours for exercises, and 3.5 hours for the project. 12 total hours
+
+- Unit 3: Playing with Probability Distributions. Through several examples, we explore different types of probability/randomness, what priors and likelihoods are, and how to check our models
+  -  More comentary/examples with pymc woven in.
+  -  Approx. length: 2 hours for notes, 3 hours for exercises, and 6 hours for the project. 11 total hours
+ 
+-  Unit 4: Hierarchical Models. An introduction to hyper priors, and how we can use them to make a model with partially dependent groups.
+  - Guess at length: 4 hours for the notes, 3 hours for exercises, and 3.5 hours for the project. 10.5 total hours
+
+- Unit 5: Linear Models (1 predictor). How to use one set of data to predict another, and all the perils therein. We cover a lot of single variable generlized linear model concepts.
+  - Guess at length: 3 hours notes, 3 hours for exercies, and 5 hours for the project. 11 total hours.
+
+- Unit 6: Linear Models (multiple predictors). Linear models, except more than 1 predictor. Under/Overfitting, model/variable selection, and visualizing high dimensional models.
+  - Guess at length: 3 hours notes, 3 hours for exercises, and 4 hours for the project. 10 total hours
+
+- Unit 7: Fitting Curves. Polynomial regression, b splines, and Gaussian Processes. Also: how all those relate on a continuum, and discussion on where Neural Networks lie on that continuum.
+  - Guess at length: 3 hours notes, 1 hour for exercises, and 4 hours for the project. 8 total hours
+
+- Unit 8: Bayesian Additive Regression Trees (BART). A bayesianification of random forests. I cover probabilistic decison trees, explain random forests conceptually, and then jump into practical examples
+  - Guess at length: 8 hours total
+
+- [Not ready] Unit 9: Neural Networks. Really three units: neural network from scratch in python, neural network built with PyTorch, and playing with a baby Large Language model. I'd like to cover how dropout, CNN, and transformers can be thought of as priors on a nerual network, but I might not be able to fit it in. 
+
+- [Not ready] Unit i: Causal Inference and GLMs. This is a stand alone unit. I'll use this to introduce students who are already familiar tiwht linear regression to jump into the most useful parts of
+bayesian causal modeling as quickly as possible. The 
+
+
+- [Not ready] Unit 10: Unsuprevised learning. PCA and UMAP? This doesn't have anything to do with bayesian statistics, or causal inference, but these are useful tools and ideas.
+  - Guess at length: ? total hours 
+
+
+## Grading Scheme
 
 I created a scheme that:
 - focues on how students explain and justify their decisions
@@ -57,55 +95,18 @@ Its possible to get the majority of the credit here without a fully working mode
 Once the dealine for a project has passed, I give students one day to collaborate as much as they like in preperation for oral presentations.
 This also gives me time to grade.
 
-The next day, I select a random sample of students to present. I average those students' presentation performances,
+The next day, volunteers--or a random sample of students, if no one volunteers--present. I average those students' presentation performances,
 and apply that average as everyone's presentation grade.
 
 #### Late policy/Absence Policy
 
 - Projects:
-  - First late project penatly: max grade of a 90; 0 for the presentation grade.
-  - Second: max grade is a 70, and I will deprioritize grading it.
-  - Third or more: max grade is a 60, and I will deprioritize grading it.
+  - First late project penatly: max grade of 90%; 0 for the presentation grade.
+  - Second: max grade is 70%, and I will deprioritize grading it.
+  - Third or more: max grade is 60%, and I will deprioritize grading it.
 - Class participation:
   - Absent students are exempt from that week's participation grade.
 - Exercises:
-  - Late exercises will be given a grade of 50. 
+  - Late exercises will be given a grade of 50.
 
-## Break Down of the Units:
-
-- Unit 1: Crash Course in Python. I only cover enough python to give students the ability to use numpy arrays and pandas dataframes, and read a for loop.
-  - Approx. length: 3 hours of class time for the notes and 1 hour for the exercises. No project this unit. 4 total hours; much shorter if this isn't your first coding class.
-
-- Unit 2: Intro to Probability. I blend probability and statsitcs together in a single example. This unit assumes no previous exposure to probability/statistics.
-  - we also conlude by buidling a model with pymc, although students are not expected to understand that model yet.
-  - Approx. length: 6 hours for the notes. 2.5 hours for exercises, and 3.5 hours for the project. 12 total hours
-
-- Unit 3: Playing with Probability Distributions. Through several examples, we explore different types of probability/randomness, what priors and likelihoods are, and how to check our models
-  -  More comentary/examples with pymc woven in.
-  -  Approx. length: 2 hours for notes, 3 hours for exercises, and 6 hours for the project. 11 total hours
  
--  Unit 4: Hierarchical Models. An introduction to hyper priors, and how we can use them to make a model with partially dependent groups.
-  - Guess at length: 4 hours for the notes, 3 hours for exercises, and 3.5 hours for the project. 10.5 total hours
-
-- Unit 5: Linear Models (1 predictor). How to use one set of data to predict another, and all the perils therein. We cover a lot of single variable generlized linear model concepts.
-  - Guess at length: 3 hours notes, 3 hours for exercies, and 5 hours for the project. 11 total hours.
-
-- Unit 6: Linear Models (multiple predictors). Linear models, except more than 1 predictor. Under/Overfitting, model/variable selection, and visualizing high dimensional models.
-  - Guess at length: 3 hours notes, 3 hours for exercises, and 4 hours for the project. 10 total hours
-
-- Unit 7: Fitting Curves. Polynomial regression, b splines, and Gaussian Processes. Also: how all those relate on a continuum, and discussion on where Neural Networks lie on that continuum.
-  - Guess at length: 3 hours nots, 1 hour for exercises, and 4 hours for the project. 8 total hours
-
-- Unit 8: Bayesian Additive Regression Trees (BART). A bayesianification of random forests. I cover probabilistic decison trees, explain teh concept of random forests, and then jump into practical examples
-  - Guess at length: 8 hours total
- 
-- [Not ready] Unit 9: Causal Inference and GLMs. 
-
-- [Not ready] Unit 10: The Multi-Layer Perceptron. Introduces MLPs as a speedy approximation of a guassian process.
-
-- [Not ready] Unit 11: Priors and neural networks. Introduces dropout, CNN, and transformers as priors.
-
-- maybe I just have us play with one of those mini LLMs google published recently?
-
-- [Not ready] Unit 12: Unsuprevised learning. PCA and UMAP?
-  - Guess at length: ? total hours 
